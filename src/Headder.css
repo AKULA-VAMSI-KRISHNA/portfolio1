@@ -17,3 +17,21 @@
 .headder:secondchild {
   padding-left: 10%;
 }
+.img {
+  width:10% ;
+  height:80%;
+}
+
+@media only screen and (max-width: 700px) {
+  .tot {
+    display: flex;
+    flex-direction: column;
+  }
+  .headder img {
+    width:30vw;
+  }
+  .headder1 {
+    width:100vw;
+    padding-left: 20vw;
+  }
+}

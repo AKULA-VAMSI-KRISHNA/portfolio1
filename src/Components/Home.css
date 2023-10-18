@@ -46,10 +46,19 @@ p {
     word-spacing: 2px;
     margin-top:20px;
 }
-
+.lkj {
+    text-align: justify;
+    text-justify: inter-word;
+}
 @media only screen and (max-width: 1000px) {
     .abcd {
       display: flex;
       flex-direction: column;
     }
   }
+
+@media only screen and (max-width:800px){
+    .lkj  p{
+        font-size: 17px;
+    }
+}
